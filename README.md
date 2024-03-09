@@ -1,5 +1,7 @@
 # Patika-Odev-3
 PgAdmin üzerinden dvdrental veritabanı kullanılarak, 4 maddeden oluşan ödev için SQL sorgusu yapılmıştır.
+
+
 /*country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.*/
 SELECT * FROM country
 WHERE country LIKE 'A%a';
